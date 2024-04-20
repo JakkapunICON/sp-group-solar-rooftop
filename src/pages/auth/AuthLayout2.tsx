@@ -8,7 +8,7 @@ import { useLayoutContext } from "@src/states";
 //images
 import logo from "@src/assets/images/new-logo.png";
 import logoDark from "@src/assets/images/new-logo.png";
-import bgAuth from "@src/assets/images/imgBg.png";
+import bgAuth from "@src/assets/images/imgBg2.jpg";
 import { FiFacebook } from "react-icons/fi";
 import { TbBrandGoogle } from "react-icons/tb";
 import { LuGithub, LuQuote, LuTwitter } from "react-icons/lu";
@@ -93,56 +93,6 @@ const AuthLayout2 = ({
             </Typography>
 
             {children}
-
-            {/* {hasThirdPartyLogin && (
-              <Box sx={{ textAlign: "center", mt: "36px" }}>
-                <Typography variant="body1" sx={{ color: "grey.600", marginBottom: "24px" }}>
-                  Sign in with
-                </Typography>
-                <Box sx={{ display: "flex", gap: "8px", justifyContent: "center" }}>
-                  <IconButton
-                    sx={{
-                      height: "32px",
-                      width: "32px",
-                      lineHeight: "28px",
-                      border: "2px solid #3e61d5",
-                      borderRadius: "100%",
-                    }}>
-                    <FiFacebook size={24} />
-                  </IconButton>
-                  <IconButton
-                    sx={{
-                      height: "32px",
-                      width: "32px",
-                      lineHeight: "28px",
-                      border: "2px solid #f15776",
-                      borderRadius: "100%",
-                    }}>
-                    <TbBrandGoogle size={24} />
-                  </IconButton>
-                  <IconButton
-                    sx={{
-                      height: "32px",
-                      width: "32px",
-                      lineHeight: "28px",
-                      border: "2px solid #16a6e9",
-                      borderRadius: "100%",
-                    }}>
-                    <LuTwitter size={24} />
-                  </IconButton>
-                  <IconButton
-                    sx={{
-                      height: "32px",
-                      width: "32px",
-                      lineHeight: "28px",
-                      border: "2px solid #6c757d",
-                      borderRadius: "100%",
-                    }}>
-                    <LuGithub size={24} />
-                  </IconButton>
-                </Box>
-              </Box>
-            )} */}
           </Box>
 
           <Box sx={{}}>{bottomLinks}</Box>
